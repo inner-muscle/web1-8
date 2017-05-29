@@ -99,7 +99,7 @@ div.img#faq{     background-position: 0 -184px;}
 
 .breadcrumbs li :before
 {
-    content: ">";
+    content: " > ";
 }
 
 .breadcrumbs li:first-child:before
