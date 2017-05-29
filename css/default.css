@@ -97,7 +97,7 @@ div.img#faq{     background-position: 0 -184px;}
     list-style-type: none;
 }
 
-.breadcrumbs li :before
+.breadcrumbs li:before
 {
     content: " > ";
 }
