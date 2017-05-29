@@ -5,17 +5,45 @@ body
     background-color: mediumaquamarine;
 }
 
-#logo ul
+#gnav ul
 {
     overflow: hidden;
+}
+
+#gnav li
+{
+    float: left;
+    width: 156px;
+    border-right: white 1px solid;
+    list-style-type: none;
+}
+
+#gnav li:first-child
+{
+    border-left: white 1px solid;
 }
 
 #gnav a
 {
     display: block;
+    padding:10px 0;
     text-align: center;
     text-decoration: none;
+    background: darkgreen;
     color: white;
+}
+
+#gnav a:hover
+{
+    background: lightgreen;
+    color: black;
+}
+
+#gnav a.selected
+{
+    background: white;
+    color: darkgreen;
+    font-weight: bold;
 }
 
 #gnav a:after
@@ -44,6 +72,11 @@ div.img#content1 {background-position: 0 -46px;}
 div.img#content2{background-position: 0 -92px;}
 div.img#help{    background-position: 0 -148px;}
 div.img#faq{     background-position: 0 -184px;}
+
+#logo ul
+{
+    overflow: hidden;
+}
 
 #logo li
 {
