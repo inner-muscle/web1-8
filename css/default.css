@@ -80,7 +80,7 @@ div.img#faq{     background-position: 0 -184px;}
 
 #logo li
 {
-    float: table-cell;
+    display: table-cell;
     vertical-align: middle;
     padding: 0 10px;
     list-style-type: none;
